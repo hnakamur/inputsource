@@ -1,0 +1,28 @@
+Select text input source on Mac OS X 10.5 (Leopard) or later.
+
+Usage:
+  inputsource
+         Prints current input source id.
+
+  inputsource input_source_id
+         Select input source.
+
+  inputsource -h
+         Show this help.
+
+
+Example input source IDs:
+- com.apple.inputmethod.Kotoeri.Roman:    Kotoeri ASCII
+- com.apple.inputmethod.Kotoeri.Japanese: Kotoeri Hiragana
+- com.google.inputmethod.Japanese.Roman:  Google Japanese Input ASCII
+- com.google.inputmethod.Japanese.base:   Google Japanese Input Hiragana
+
+
+Build:
+  Run 'make'.
+
+
+Files:
+- inputsource.m: The source file.
+- Makefile:      The makefile.
+- inputsource:   The 64bit executable built on Mac OS X 10.7 (Lion).
